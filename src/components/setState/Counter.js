@@ -10,7 +10,7 @@ class Counter extends Component {
     }
     
     increaseCounter() {
-        /*
+        /* 
         Rules to be followed while using setState() method: 
         Rule 1: Do not modify the state directly as it will not re-render the modified UI. So, to change the state, 
                 setState() method has to be used always as this method will let React know that it has to re-render
