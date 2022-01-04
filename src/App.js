@@ -2,15 +2,18 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/setState/Counter';
-import Greet from './destructuringProps/Greet';
-
+import Greet from './destructuringProps/Greet'; 
+import FunctionClick from './eventHandling/FunctionClick';
+import ClassClick from './eventHandling/ClassClick';
 
 class App extends Component {  
   render() {
     return (
       <div className="App">
         {/* <Counter/> */}
-        <Greet name="Danial" heroName="Harry"/>
+        {/* <Greet name="Danial" heroName="Harry"/> */}
+        <FunctionClick/>
+        <ClassClick/>
       </div>
     )
   }
