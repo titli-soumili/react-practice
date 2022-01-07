@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/setState/Counter';
-import Greet from './destructuringProps/Greet'; 
-import FunctionClick from './eventHandling/FunctionClick';
-import ClassClick from './eventHandling/ClassClick';
+import Greet from './components/destructuringProps/Greet'; 
+import FunctionClick from './components/eventHandling/FunctionClick';
+import ClassClick from './components/eventHandling/ClassClick';
 
 class App extends Component {  
   render() {
