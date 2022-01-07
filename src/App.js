@@ -5,6 +5,7 @@ import Counter from './components/setState/Counter';
 import Greet from './components/destructuringProps/Greet'; 
 import FunctionClick from './components/eventHandling/FunctionClick';
 import ClassClick from './components/eventHandling/ClassClick';
+import EventBind from './components/bindingEventHandlers/EventBind';
 
 class App extends Component {  
   render() {
@@ -12,8 +13,9 @@ class App extends Component {
       <div className="App">
         {/* <Counter/> */}
         {/* <Greet name="Danial" heroName="Harry"/> */}
-        <FunctionClick/>
-        <ClassClick/>
+        {/* <FunctionClick/> */}
+        {/* <ClassClick/> */}
+        <EventBind/>
       </div>
     )
   }
