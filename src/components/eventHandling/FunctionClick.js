@@ -11,7 +11,6 @@ Things to remember:
 
 */
 
-import { func } from 'prop-types'
 import React from 'react'
 
 export default function FunctionClick() {
