@@ -18,14 +18,14 @@ Things to remember:
 */
 
 
-// To display a message with a perticular format using string literal, we can use any of the 3 different ways
-// mentioned below. But this will make the code looks uglier.
+// To display a message with a perticular format using string literal, we can use any of the 3 different ways mentioned 
+// below. But this will make the code looks uglier.
 
 const message = 'This is my\n first message'; //method 1
 
 const message =                               //method 2
 'This is my\n' +
-'first message'; or
+'first message';
 
 const message =                               //method 3
 'This is my\n'+
