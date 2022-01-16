@@ -1,46 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Counter from './components/setState/Counter';
-import Greet from './components/destructuringProps/Greet'; 
-import FunctionClick from './components/eventHandling/FunctionClick';
-import ClassClick from './components/eventHandling/ClassClick';
-import EventBind from './components/bindingEventHandlers/EventBind';
+import React, { Component } from "react";
 
-class App extends Component {  
+//== import components ==//
+import Counter from "./components/setState/Counter";
+import Greet from "./components/destructuringProps/Greet";
+import FunctionClick from "./components/eventHandling/FunctionClick";
+import ClassClick from "./components/eventHandling/ClassClick";
+import EventBind from "./components/bindingEventHandlers/EventBind";
+import ParentComponent from "./components/methodsAsProps/ParentComponent";
+//== import components ==//
+
+class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Counter/> */}
-        {/* <Greet name="Danial" heroName="Harry"/> */}
-        {/* <FunctionClick/> */}
+        <ParentComponent/>
+        {/* <EventBind/> */}
         {/* <ClassClick/> */}
-        <EventBind/>
+        {/* <FunctionClick/> */}
+        {/* <Greet name="Danial" heroName="Harry"/> */}
+        {/* <Counter/> */}
       </div>
-    )
+    );
   }
 }
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;
