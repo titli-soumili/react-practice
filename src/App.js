@@ -13,12 +13,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParentComponent/>
+        {/* <ParentComponent/> */}
         {/* <EventBind/> */}
         {/* <ClassClick/> */}
         {/* <FunctionClick/> */}
         {/* <Greet name="Danial" heroName="Harry"/> */}
-        {/* <Counter/> */}
+        <Counter/>
       </div>
     );
   }
