@@ -14,11 +14,11 @@ class App extends Component {
     return (
       <div className="App">
         {/* <ParentComponent/> */}
-        {/* <EventBind/> */}
+        <EventBind/>
         {/* <ClassClick/> */}
         {/* <FunctionClick/> */}
         {/* <Greet name="Danial" heroName="Harry"/> */}
-        <Counter/>
+        {/* <Counter/> */}
       </div>
     );
   }
