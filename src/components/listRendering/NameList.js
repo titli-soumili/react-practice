@@ -17,7 +17,6 @@ Features of "key" attribute:
     3. Keys give the element a stable identity.
     4. Keys help React identify which items have changed, added or removed.
     5. Keys help in efficient update of the user interface.
-
 */
 
 import React from 'react';
@@ -62,7 +61,7 @@ function NameList() {
     // return <div>{personData}</div>
 
 
-     //== example 3: Passing unique key value to component to avoid error in console ===//
+     //== example 3: Passing unique value to attribute key to the component to avoid error in console ===//
      const persons = [
         {
             id: 1,
