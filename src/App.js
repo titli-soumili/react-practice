@@ -8,13 +8,15 @@ import ClassClick from "./components/eventHandling/ClassClick";
 import EventBind from "./components/bindingEventHandlers/EventBind";
 import ParentComponent from "./components/methodsAsProps/ParentComponent";
 import UserGreetings from "./components/conditionalRendering/UserGreetings";
+import NameList from "./components/listRendering/NameList";
 //== import components ==//
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserGreetings/>
+        <NameList/>
+        {/* <UserGreetings/> */}
         {/* <ParentComponent/> */}
         {/* <EventBind/> */}
         {/* <ClassClick/> */}
