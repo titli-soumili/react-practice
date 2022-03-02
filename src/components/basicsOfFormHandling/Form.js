@@ -6,11 +6,11 @@ Things to remember:
             are controlled by React are called Controlled Components.
 
     2. When you assign a handler to the onChange event, the event itself is passed as a parameter to the
-        handler. So here in "chaneUserName" property, we have one parameter called "event". From this
-        "event", we can extrat the value of input element using "event.target.value".
+        handler. So here in "changeUserName" property, we have one parameter called "event". From this
+        "event", we can extract the value of input element using "event.target.value".
 
     3. We are showing the example of Controlled Components for 3 different form elements - input,
-        extarea and select tag.
+        textarea and select tag.
 
     4. In button tag, type="submit" will give the user the ability to submit the form by hitting the
         "enter" key which is always good.
