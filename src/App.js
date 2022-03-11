@@ -15,6 +15,7 @@ import CssModules from "./components/stylingAndCssBasics/CssModules";
 import './appStyles.css';   //we are naming it as REGULAR CSS
 import styles from "./appStyles.module.css";  //we are naming it as MODULE CSS
 import Form from "./components/basicsOfFormHandling/Form";
+import LifeCycleA from "./components/componentMountingLifecycleMethods/LifeCycleA";
 //== import components ==//
 
 class App extends Component {
@@ -22,8 +23,8 @@ class App extends Component {
     const allDataStyle = {textAlign: 'center'}
     return (
       <div className="App" style={allDataStyle}>
-        
-        <Form/>
+        <LifeCycleA />
+        {/* <Form/> */}
 
         {/* Here we are using module css for styling. This styling is referrenced the classname using
             "styles" variable and cannot be used in the children components. */}
