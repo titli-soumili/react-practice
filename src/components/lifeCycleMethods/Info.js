@@ -23,7 +23,16 @@ LifeCycle Methods:
     
     6. Unmounting: This method will call, when a component is being removed from the DOM. During this
                     phase we have only 1 method - componentWillUnmount
-    
+        
+        componentWillUnmount: 
+            1. This method is invoked immediately before a component is unmounted and
+                destroyed.
+            2. In this method, some cleanup task can be performed like - cancelling any network
+                requests, removing event handlers, cancelling any subscriptions and also
+                invalidating timers from setTimeOut() or setTimeInterval().
+            3. Should not make setState() call in this method as the component is never re-render
+                after it  has been unmounted.
+
     7. Error Handling: This method will call, when there is an error during rendering, in a lifecycle
                         method or in the constructor or any child component. During this phase we have
                         2 methods - static getDerivedStateFromError and componentDidCatch
