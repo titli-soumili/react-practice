@@ -27,7 +27,7 @@ Mounting Life Cycle Methods:
         c. Do not cause side effects. i.e. do not make any ajax call or any HTTP requests from or
             within this method.
 
-    3. render();
+    3. render():
         a. In this method, we read "this.prop" and "this.state" and return the JSX which describes the UI.
         b. It is a pure function. For the given props and state, it should always render the same UI.
         c. This method doesn't support: changing the state, interacting with DOM or making ajax calls.

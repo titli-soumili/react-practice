@@ -15,7 +15,9 @@ import CssModules from "./components/stylingAndCssBasics/CssModules";
 import './appStyles.css';   //we are naming it as REGULAR CSS
 import styles from "./appStyles.module.css";  //we are naming it as MODULE CSS
 import Form from "./components/basicsOfFormHandling/Form";
-import LifeCycleA from "./components/componentMountingLifecycleMethods/LifeCycleA";
+// import LifeCycleA from "./components/componentMountingLifecycleMethods/LifeCycleA";
+import LifeCycleA from "./components/componentUpdatingLifecycleMethods/LifeCycleA";
+
 //== import components ==//
 
 class App extends Component {
