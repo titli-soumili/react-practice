@@ -1,16 +1,13 @@
 /*
 Things to remember:
 
-1. var: Using "var", a variable can be redefined as well as reassigned. Variable defined using "var"
-        can be accessable out of the scope.
+1. var: Using "var", a variable can be redefined as well as reassigned. Variable defined using "var" can be accessable out of the scope.
 
-2. let: Using "let", a variable can be reassigned but can not be redefined. Variable defined using
-        "let" can not be accessable out of the scope.
+2. let: Using "let", a variable can be reassigned but can not be redefined. Variable defined using "let" can not be accessable out of the scope.
 
-3.?? const: Using "const", a variable can neither be redefined nor be reassigned. Variable defined using
-            "const" can not be accessable out of the scope.
-
+3. const: Using "const", a variable can neither be redefined nor be reassigned. Variable defined using "const" can not be accessable out of the scope.
 */
+
 
 // Test below examples one at a time for better understanding
 
