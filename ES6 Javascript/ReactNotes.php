@@ -105,3 +105,9 @@ Event Bubbling:
 
 
 To learn more about Arrow_functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+
+Difference between single page application and multi page application:
+        In a single page application, we can update only the body component of a web page as per the request keeping the header and footer components unchaged without reloading the page. Using single page application concept we can save a lot of bandwidth, we can save a lot of data transportation which in turn reduces the server load. 
+
+        In a multi page application, for every request we have to render all the html, css and javasccript again and again which in turn increases the server load.
